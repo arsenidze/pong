@@ -1,16 +1,16 @@
 ﻿  main.cpp
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(49,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(49,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(54,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(55,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(60,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(60,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(61,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(66,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(78,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(78,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(89,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(89,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(58,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(58,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(63,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(64,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(69,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(69,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(70,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(75,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(87,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(87,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(98,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(98,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(204,33): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
           with
           [
@@ -31,7 +31,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty=Ball
           ]
-C:\Users\Arsenii\source\repos\Pong\src\main.cpp(51): message : see reference to function template instantiation 'std::shared_ptr<Ball> std::make_shared<Ball,Vector2D,int,const char(&)[5]>(Vector2D &&,int &&,const char (&)[5])' being compiled
+C:\Users\Arsenii\source\repos\Pong\src\main.cpp(60): message : see reference to function template instantiation 'std::shared_ptr<Ball> std::make_shared<Ball,Vector2D,int,const char(&)[5]>(Vector2D &&,int &&,const char (&)[5])' being compiled
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\filesystem(2087): message : see reference to class template instantiation 'std::chrono::time_point<std::filesystem::_File_time_clock,std::chrono::duration<std::chrono::system_clock::rep,std::chrono::system_clock::period>>' being compiled
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(1743): message : see reference to class template instantiation 'std::basic_string_view<wchar_t,std::char_traits<wchar_t>>' being compiled
   Pong.vcxproj -> C:\Users\Arsenii\source\repos\Pong\Debug\Pong.exe

@@ -13,16 +13,25 @@
 int winWidth = 800;
 int winHeight = 600;
 
+// Use it to run from ide
+//std::map<std::string, std::filesystem::path> textureFileMap =
+//{
+//	{"paddle", std::filesystem::current_path() / "assets" / "brown32.png"},
+//	{"wall", std::filesystem::current_path() / "assets" / "wall.png"},
+//	{"ball", std::filesystem::current_path() / "assets" / "ball32.png"},
+//};
+
 std::map<std::string, std::filesystem::path> textureFileMap =
 {
-	{"paddle", std::filesystem::current_path() / "assets" / "brown32.png"},
-	{"wall", std::filesystem::current_path() / "assets" / "wall.png"},
-	{"ball", std::filesystem::current_path() / "assets" / "ball32.png"},
+	{"paddle", std::filesystem::current_path() / ".." / "assets" / "brown32.png"},
+	{"wall", std::filesystem::current_path() / ".." / "assets" / "wall.png"},
+	{"ball", std::filesystem::current_path() / ".." / "assets" / "ball32.png"},
 };
 
 
 int main(int argc, char* argv[])
 {
+	std::cout << textureFileMap["paddle"].string() << std::endl;
 	GraphicsConfig	graphicsConfig;
 
 	graphicsConfig.winName = "Pong";
