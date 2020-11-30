@@ -1,3 +1,4 @@
-Simple pong game. Attempting to reproduce: https://www.youtube.com/watch?v=fiShX2pTz9A
+Simple pong game. 
 
-![original_arcade_game](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theverge.com%2F2012%2F11%2F30%2F3709758%2Fhistory-of-pong&psig=AOvVaw3QFLw06QCsVVHJy75LvwYT&ust=1606810475177000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICZ2tHpqe0CFQAAAAAdAAAAABAD)
+Attempting to reproduce: https://www.youtube.com/watch?v=fiShX2pTz9A
+![](https://cdn.vox-cdn.com/thumbor/brBOupg8Bd6r6lt4Cfs0LT8LZzY=/0x33:800x566/1200x800/filters:focal(0x33:800x566)/cdn.vox-cdn.com/assets/1812005/Pong.png)
